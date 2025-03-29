@@ -85,3 +85,6 @@ flex-column	Align flex items vertically to the bottom
     <button>Get Started</button>
   </div>
 </div>
+
+
+DEVELOPING LAYOUT IN BOOTSTRAP:
