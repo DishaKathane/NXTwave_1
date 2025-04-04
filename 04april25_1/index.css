@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container1 {
+    background-color: #1b1b1b;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    font-family: "Bree Serif";
+    padding: 20px;
+    color: #ffffff;
+}
+
+.firstPage-top-heading {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    /* font-family: "Roboto"; */
+}
+
+.firstPage-card1 {
+    background-color: #e6f6ff;
+    height: 170px;
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.firstpage-div {
+    padding: 12px;
+    width: 130px;
+}
+
+.card1-img {
+    height: 170px;
+    width: 120px;
+}
+
+.card1-heading {
+    font-size: 15px;
+    color: #183b56;
+}
+
+.card1-paragraph {
+    color: #06070d;
+    font-size: 11px;
+}
+
+.card1-paragraph2 {
+    font-size: 10px;
+    /* color:#9aa5b1; */
+    color: #183b56;
+}
+
+.button {
+    height: 30px;
+    width: 80px;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.headind-second {
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.bottom-card1 {
+    /* background-color: red; */
+    height: 140px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom-card1-img {
+    height: 120px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+.firstpage-div1 {
+    padding: 12px;
+    /* width: 130px; */
+}
+
+.card1-heading-0 {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.card1-paragraph-0 {
+    color: #e4e7eb;
+    font-size: 11px;
+}
+.page2{
+    color:#ffffff;
+}
+.page2-card1{
+    text-align: center;
+}
+.kalamimg{
+    height:250px;
+    width: 160px;
+}
+.page2-card1-h1{
+    margin-top:10px;
+    font-size:23px;
+}
+.page2-card1-p{
+    /* margin-top:5px; */
+    font-size:12px;
+    color:#9aa5b1;
+}
+.bottom-page2-paragraph{
+    font-size: 11px;
+    color:#e4e7eb;
+    /* font-family: Roboto; */
+    font-weight: 400;
+}
+.button1 {
+    height: 30px;
+    width: 60px;
+    font-family: "Roboto";
+    text-align: center;
+    padding: 2px;
+    font-size: 12px;
+}

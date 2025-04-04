@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/podcasts-bg.png");
+    height: 40vh;
+    width: 100vw;
+    background-size: cover;
+    font-family: Roboto;
+}
+
+.main-heading {
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    padding: 20px;
+}
+.card1{
+    /* background-color: yellow; */
+    height: 180px;
+    text-align: center;
+    padding:20px;
+}
+.card1-div{
+    text-align: center;
+    padding:10px;
+}
+.crad1-image{
+    height: 90px;
+    width:120px;
+    border-radius: 7px;
+}
+.card1-h1{
+    font-size: 15px;
+    font-weight: bold;
+    color:#151765;
+}
+.card1-p{
+    color: #5a7184;
+}
+.pageOnclick{
+    font-family:"Roboto";
+}
+
+.jagannath-bg-container{
+    background-color: #151765;
+    height: 25vh;
+    width:100vw;
+    background-size:cover;
+    margin-bottom: 10px;
+}
+.jagannathcard1{
+    padding:20px;
+
+}
+.jagannadh-div{
+     height: 90px;
+    width:110px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+.paragraph-mini{
+    font-size: 10px;
+}
+.heading-upper{
+     font-size: 15px;
+    font-weight: bold;
+}
+
+.jagannadh-div1{
+     height: 90px;
+    width:160px;
+    margin-left: 10px;
+    font-family: "Roboto";
+}
+.paragraph-mini1{
+    font-size: 12px;
+    font-weight: 500;
+    color:#5a7184;
+}
+.paragraph-mini2{
+    font-size: 10px;
+    color:#151765;
+}
+.heading-upper1{
+     font-size: 13px;
+    font-weight: 600;
+    color:#151765;
+}
+.button{
+    background-color:#151765 ;
+    color: #ffffff;
+    width: 70px;
+    height:25px;
+    font-size: 10px;
+    margin: 30px;
+    border-radius: 15px;
+}
