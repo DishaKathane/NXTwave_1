@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="bg-containerofStatic-ws" id="sectionHomePage">
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" alt="" class="upper-image" />
+        <h1 class="upper-heading">My Project</h1>
+        <p class="upper-paragraph">These are a few of my Static Website project that I have developed using HTML, CSS, Bootstrap</p>
+        <div class="upper-container d-flex flex-row justify-content-around">
+            <div class="card1">
+                <img class="img-flex" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" alt="" onclick="display('sectionCloudImage')" />
+            </div>
+            <div class="card1">
+                <img class="img-flex" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" alt="" onclick="display('sectionDiwaliImage')" />
+            </div>
+        </div>
+        <div class="upper-container d-flex flex-row justify-content-around">
+            <div class="card1">
+                <img class="img-flex" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" alt="" onclick="display('sectionFoodImage')" />
+            </div>
+            <div class="card1">
+                <img class="img-flex" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" alt="" onclick="display('sectionNewsImage')" />
+            </div>
+        </div>
+    </div>
+    <div class="bg-containerCloud d-flex flex-column justify-content-end" id="sectionCloudImage">
+        <div class="card-container1Cloud ">
+            <h1 class="main-headingCloud">Advance technologies</h1>
+            <p class="paragraph-textCloud">Machinary and equipment developed from the application of scientific knowledge.</p>
+            <button class="learn-moreCloud">Learn more</button>
+            <button class="button2 btn btn-primary" onclick="display('sectionHomePage')">Back</button>
+        </div>
+    </div>
+    <div id="sectionDiwaliImage">
+        <div class="diwali-top-section">
+      <h1 class="diwali-top-section-heading">
+        Celebrate Diwali with your friends
+      </h1>
+    </div>
+    <div class="diwali-bottom-section">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="diwali-card-item">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png"
+            class="diwali-card-image"
+          />
+          <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+          <p class="diwali-card-price">Rs 369</p>
+        </div>
+
+        <div class="diwali-card-item">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png"
+            class="diwali-card-image"
+          />
+          <h1 class="diwali-card-name">Diwali - Lamp</h1>
+          <p class="diwali-card-price">Rs 50</p>
+        </div>
+      </div>
+      <div class="d-flex flex-row justify-content-center">
+        <div class="diwali-card-item">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png"
+            class="diwali-card-image"
+          />
+          <h1 class="diwali-card-name">Sparklers</h1>
+          <p class="diwali-card-price">Rs 150</p>
+        </div>
+
+        <div class="diwali-card-item">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png"
+            class="diwali-card-image"
+          />
+          <h1 class="diwali-card-name">Fire Cracker</h1>
+          <p class="diwali-card-price">Rs 560</p>
+        </div>
+      </div>
+      <button class="btn btn-primary">View More</button>
+      <button class="button2 btn btn-primary" onclick="display('sectionHomePage')">Back</button>
+    </div>
+    </div>
+    <div class="bg-containermeal d-flex flex-column justify-content-end" id="sectionFoodImage">
+        <div class="meal-card ">
+            <h1 class="heading-meal">Happy meal</h1>
+            <p class="paragraph-meal">Discover the best foods over the 1,000 restaurants</p>
+            <button class="button-meal">Book Now</button>
+            <button class="button2 btn btn-primary" onclick="display('sectionHomePage')">Back</button>
+        </div>
+
+    </div>
+    <div class="bg-containernews d-flex flex-column justify-content-end" id="sectionNewsImage">
+        <div class="news-card ">
+            <p class="news-paragraph">NEWS OF THE DAY</p>
+            <h1 class="heading-news">All educational institutions in Assam to reopen from November 2</h1>
+            <p class="paragraph-news">Utter Pradesh Goutam Buddh Nagar recoreded 107 new Covid-19 cases pn Satureday, pushing the district's infection taily to 15,803, official data showed. The number of active caese came down further to 1,384 from 1477 on Friday and 1,523 on Thursday, according to the data released by the UP Health Department for a 24-hour period.</p>
+            <button class="button-news" >Read More</button>
+            <button class="button2 btn btn-primary" onclick="display('sectionHomePage')">Back</button>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
