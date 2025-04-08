@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Nxtwave_flat_page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="bg-container d-flex flex-column justify-content-end" id="sectionHomePage">
+        <div class="classcard1">
+            <h1 class="classcard1-heading">Sunrise Avenue</h1>
+            <p class="classcard1-paragraph">Move to what moves you.</p>
+            <button class="button-card1" onclick="display('sectionFirstPage')">Book flat</button>
+        </div>
+
+    </div>
+
+    <div class="bf-container-1stpage" id="sectionFirstPage">
+        <h1 class="classcard1-heading">Sunrise Avenue</h1>
+        <div class="firstpage-div d-flex flex-row">
+            <div class="firstpagediv1">
+                <img class="firstpageimg" src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" alt="" onclick="display('section3BHK')" />
+            </div>
+            <div class="firstpagediv2">
+                <h1 class="firstpageinner-heading">3BHK Flats</h1>
+                <p class="classcard1-paragraph">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack. Its built-up area is about 1600sq.ft. A spacious home for you to live in.</p>
+            </div>
+
+        </div>
+        <div class="firstpage-div d-flex flex-row">
+            <div class="firstpagediv1">
+                <img class="firstpageimg" src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" alt="" onclick="display('section2BHK')"/>
+            </div>
+            <div class="firstpagediv2">
+                <h1 class="firstpageinner-heading">2BHK Flats</h1>
+                <p class="classcard1-paragraph">A minimialist house made for modern-day families. It is fullynwith trending furniture. Its built-up area is about 1200sq.ft.</p>
+            </div>
+        </div>
+
+        <div class="firstpage-div d-flex flex-row">
+            <div class="firstpagediv1">
+                <img class="firstpageimg" src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" alt="" onclick="display('section4BHK')" />
+            </div>
+            <div class="firstpagediv2">
+                <h1 class="firstpageinner-heading">4BHK Flats</h1>
+                <p class="classcard1-paragraph">A contemporary home with more color and vibrancy. It is fully furnished with eligant furniture. Its built-up area is about 3600sq.ft.</p>
+            </div>
+        </div>
+        <div class="firstpage-button">
+            <button class="button-card1" onclick="display('sectionHomePage')">Back</button>
+        </div>
+    </div>
+
+    <div class="bhk3-flat-container" id="section3BHK">
+        <img class="Image-3bhk" src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" alt="" />
+        <div class="bhk3-flat-div">
+            <h1 class="bhk3-flat-h1">Rs 3000/-</h1>
+            <div class="location-div d-flex flex-row">
+                <img class="locationimg" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" alt="" />
+                <div class="location-addr">
+                    <p>D/N 6-2, Food Steet, Indore</p>
+                </div>
+            </div>
+            <h1 class="bhk3-flat-h1">Description</h1>
+            <p class="location-addr">This is a fully furnished house with handmade furniture including a luxury en-suite facilities pack. Its built-up area is about 1600sq.ft. A spacious home for you to live in.</p>
+            <div class="secondpage-button">
+                <button class="button-card2">confirm</button>
+                <button class="button-card2" onclick="display('sectionFirstPage')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bhk3-flat-container" id="section2BHK">
+        <img class="Image-3bhk" src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" alt="" />
+        <div class="bhk3-flat-div">
+            <h1 class="bhk3-flat-h1">Rs 2000/-</h1>
+            <div class="location-div d-flex flex-row">
+                <img class="locationimg" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" alt="" />
+                <div class="location-addr">
+                    <p>D/N 6-2, Food Steet, Indore</p>
+                </div>
+            </div>
+            <h1 class="bhk3-flat-h1">Description</h1>
+            <p class="location-addr">A minimialist house made for modern-day families. It is fullynwith trending furniture. Its built-up area is about 1200sq.ft.</p>
+            <div class="secondpage-button">
+                <button class="button-card2">confirm</button>
+                <button class="button-card2" onclick="display('sectionFirstPage')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="bhk3-flat-container" id="section4BHK">
+        <img class="Image-3bhk" src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" alt="" />
+        <div class="bhk3-flat-div">
+            <h1 class="bhk3-flat-h1">Rs 4000/-</h1>
+            <div class="location-div d-flex flex-row">
+                <img class="locationimg" src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" alt="" />
+                <div class="location-addr">
+                    <p>D/N 5-2, Food Steet, Indore</p>
+                </div>
+            </div>
+            <h1 class="bhk3-flat-h1">Description</h1>
+            <p class="location-addr">A contemporary home with more color and vibrancy. It is fully furnished with eligant furniture. Its built-up area is about 3600sq.ft.</p>
+            <div class="secondpage-button">
+                <button class="button-card2">confirm</button>
+                <button class="button-card2" onclick="display('sectionFirstPage')">Back</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>

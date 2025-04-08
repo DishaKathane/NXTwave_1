@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.container1-bg{
+    background-color:#225db0;
+    height:100vh;
+    width:100vw;
+    padding: 30px;
+    color:#ffffff;
+    font-family: "Roboto";
+}
+.container1-h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.card1-img1{
+    background-color: #ffffff;
+    height:80px;
+    width:120px;
+    border-radius: 5px;
+    margin:10px;
+    padding:10px;
+    text-align: center;
+}
+
+.img1{
+    height:30px;
+    width:30px;
+}
+.paragraph{
+    color: black;
+    font-size: 11px;
+    margin: 5px;
+}
+
+/* Technology Page */
+.container-technology{
+     background-color:#225db0;
+    height:100vh;
+    width:100vw;
+    padding: 15px;
+    color:#ffffff;
+    background-size:cover;
+    font-family: "Roboto";
+}
+.headingcontainer1{
+    font-size:25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.list-item{
+    margin:10px;
+    font-size: 15px;
+}
+.button-div{
+    text-align: center;
+}
+.submit{
+    height:30px;
+    width:60px;
+    color:#ffffff;
+    background-color: #225db0;
+    border-color: #ffffff;
+}
