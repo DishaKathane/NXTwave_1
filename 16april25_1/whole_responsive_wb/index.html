@@ -28,8 +28,8 @@
                         Why Choose Us?
                         <span class="sr-only">(current)</span>
                     </a>
-                    <a class="nav-link" href="#exploremenu" id="navItem2">Explore Menu</a>
-                    <a class="nav-link" href="#deliveryPaymnetSection" id="navItem3">Delivery & Payment</a>
+                    <a class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
+                    <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Delivery & Payment</a>
                     <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
                 </div>
             </div>
@@ -89,7 +89,7 @@
             </div>
         </div>
     </div>
-    <div class="explore-menu-section pt-5 pb-5" id="exploremenu">
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -217,7 +217,7 @@
             </div>
         </div>
     </div>
-    <div class="delivery-and-payment-section pt-5 pb-5" id="deliveryPaymnetSection">
+    <div class="delivery-and-payment-section pt-5 pb-5" id="deliveryPaymentSection">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-5 order-1 order-md-2">
@@ -261,7 +261,30 @@
                         <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
                     </div>
                     <div>
-                        <button class="custom-button">Redeem Gift</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                            Redeem Gift
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog mt-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title thanking-customer-section-modal-title" id="exampleModalLabel">Gift Voucher</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png" class="w-100" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-5 d-none d-md-block">
@@ -275,15 +298,17 @@
             <div class="row">
                 <div class="col-12">
                     <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
                     <div class="d-flex flex-row justify-content-center">
                         <div class="follow-us-icon-container">
-                            <i class="fa-brands fa-twitter icon"></i>
+                            <i class="fab fa-twitter icon"></i>
                         </div>
                         <div class="follow-us-icon-container">
-                            <i class="fa-brands fa-instagram icon"></i>
+                            <i class="fab fa-instagram icon"></i>
                         </div>
                         <div class="follow-us-icon-container">
-                            <i class="fa-brands fa-facebook icon"></i>
+                            <i class="fab fa-facebook icon"></i>
                         </div>
                     </div>
                 </div>

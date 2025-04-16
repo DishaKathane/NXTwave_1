@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #19232d;
+    font-family: Roboto;
+}
+
+.footerimage {
+    height: 50px;
+}
+
+.footer-icon-container {
+    background-color: #202b36;
+    height: 60px;
+    width: 60px;
+    padding-top: 18px;
+    padding-left: 20px;
+    border-radius: 35px;
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 25px;
+}
+
+.footer-heading {
+    font-size: 20px;
+    color: #5a7184;
+    text-align: center;
+}
+
+.middle-footer {
+    color: #5a7184;
+}
+
+.section1-heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.section1Icon {
+    font-size: 25px;
+}
+.section1paragraph{
+    font-size:20px;
+}
+.section1paragraph1{
+    font-size:20px;
+    color:#959ead;
+}
+.horizontaline{
+    background-color: #5a7184;
+}
