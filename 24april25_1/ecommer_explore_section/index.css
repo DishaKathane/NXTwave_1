@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #f0f2f5;
+    background-size: cover;
+}
+
+.main-Heading {
+    color: #183b56;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.card1 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.car1-heading {
+    color: #183b56;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-card1 {
+    height: 80%;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.heading1-card1 {
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 10px;
+   
+}
+
+.anker-tag {
+    color: #ff9f00;
+    
+}
+.image-card2{
+    height:100%;
+    width:80%;
+    border-radius: 50px;
+}
